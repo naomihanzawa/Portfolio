@@ -100,11 +100,10 @@ div{
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
-  /* box-shadow: 0 0 10px gray; */
 }
 
-.shadow{
-  box-shadow: 0 0 10px gray;
+.shadow img{
+    box-shadow: 0 0 10px gray;
 }
 
 .works p{

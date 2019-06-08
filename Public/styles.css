@@ -1,9 +1,6 @@
 
 
 h1{
-  font-family:
-  /* 'arial black',  */
-  sans-serif;
   font-size: 30px;
   padding-top: 50px;
   margin-top:50px;
@@ -39,9 +36,6 @@ header li{
   display: inline-block;
   font-size: 14px;
   padding:20px 5px;
-  font-family:
-  /* 'arial black' */
-  , sans-serif;
 }
 
 li a{
@@ -66,33 +60,15 @@ div{
   margin-bottom: 200px;
 }
 
-.contents{
-  /* height: 100vh; */
-}
-
 .contents li{
   list-style-type: none;
   font-size: 15px;
-  font-family:
-  /* 'arial black' */
-  , sans-serif;
   padding:20px 30px 20px 0px;
 }
-
-/* .works h1{
-  font-family: 'arial black', sans-serif;
-  font-size: 30px;
-  padding:60px;
-  background-color: #FFF352;
-  margin: 0px;
-} */
 
 .works h1{
   margin:70px;
   font-size: 20px;
-  font-family:
-  /* 'arial black' */
-  , sans-serif;
 }
 
 .works img{
@@ -141,4 +117,18 @@ footer p{
  color: #555555;
  margin-left: 30px;
  font-family:arial, sans-serif;
+}
+
+/* tablet styles */
+@media only screen and (min-width: 451px) and (max-width: 850px) {
+  body {
+    background-color: pink;
+  }
+}
+
+/* mobile styles */
+@media only screen and (max-width: 450px) {
+  body {
+    background-color: lightblue;
+  }
 }

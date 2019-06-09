@@ -66,13 +66,19 @@ div{
   padding:20px 30px 20px 0px;
 }
 
+.works {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .works h1{
   margin:70px;
   font-size: 20px;
 }
 
 .works img{
-  width: 400px;
+  width: 100%;
+  max-width: 400px;
   display: block;
   margin: 0 auto;
   margin-bottom: 100px;
